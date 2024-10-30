@@ -22,9 +22,11 @@ The Crypto Tracking Bot is a Telegram bot that monitors cryptocurrency prices an
 
 [API]
 API_KEY = your_api_key_here
- BASE_URL = https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest
+BASE_URL = https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest
+
 [BOT]
- BOT_TOKEN = your_bot_token_here
+BOT_TOKEN = your_bot_token_here
+
 
 -  Install the required libraries:
 pip install requests telebot numpy
