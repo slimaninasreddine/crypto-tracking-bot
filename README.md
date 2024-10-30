@@ -19,7 +19,7 @@ The Crypto Tracking Bot is a Telegram bot that monitors cryptocurrency prices an
    git clone */crypto-tracking-bot.git
    cd crypto-tracking-bot
 -  Create a configuration file named config.conf in the project directory and populate it with your API key and bot token as shown below:
-
+```bash
 [API]
 API_KEY = your_api_key_here
 BASE_URL = https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest
